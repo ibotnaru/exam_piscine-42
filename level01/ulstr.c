@@ -6,13 +6,13 @@
 /*   By: ibotnaru <ibotnaru@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/19 18:26:02 by ibotnaru          #+#    #+#             */
-/*   Updated: 2019/03/19 18:53:57 by ibotnaru         ###   ########.fr       */
+/*   Updated: 2019/03/19 18:56:00 by ibotnaru         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
 **	Assignment name  : ulstr
-**	xpected files   : ulstr.c
+**	Expected files   : ulstr.c
 **	Allowed functions: write
 **	--------------------------------------------------------------------------------
 **
