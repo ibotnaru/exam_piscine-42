@@ -6,7 +6,7 @@
 /*   By: ibotnaru <ibotnaru@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/15 19:06:43 by ibotnaru          #+#    #+#             */
-/*   Updated: 2019/05/15 19:07:19 by ibotnaru         ###   ########.fr       */
+/*   Updated: 2019/05/15 19:10:59 by ibotnaru         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,3 +95,24 @@ char    **ft_split(char *str)
     buff[i] = NULL;
     return(buff);
 }
+
+/*
+= ft_split =====================================================================
+$> gcc -Wextra -Wall -Werror ft_split.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./bwu09rsrbygdd4bokt3lzmp4 ""
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./vk1t6t6wdvyg2l9680mg5ukr "
+
+"
+Command './vk1t6t6wdvyg2l9680mg5ukr "
+
+"' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= Final grade: 0 ===============================================================
+*/
